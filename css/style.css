@@ -1,0 +1,35 @@
+/* Timeline Cascading Style Sheet */
+
+body, html {
+	text-align: center;
+	background-color:#ffffff;
+	color: #000000;
+	background-image: url(https://orig00.deviantart.net/7ed5/f/2015/300/b/f/blue_geometric_wallpaper_by_supergecko99-d9ekl20.jpg);
+	background-repeat: no-repeat;
+	background-position: 50% 0px;
+	font-family: verdana, helvetica, arial, sans-serif;
+	font-size: 14px;
+}
+
+.date {
+	position:absolute;
+	height:20px;
+	width:70px;
+	padding: 5px;
+	background-color: #027ABB;
+	color: #ffffff;
+	border: 0px solid #027ABB;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.box {
+	position:absolute;
+	height:120px;
+	width:70px;
+	background-color: #EAEAFF;
+	border: 2px solid #027ABB;
+	color: #027ABB;
+	font-size:8.5px;
+	cursor:move;
+}
